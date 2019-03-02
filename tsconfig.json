@@ -8,15 +8,15 @@
     ],
     "types": [
       "node"
-    ],
-    "include":[
+    ]
+  },
+  "include":[
       "**/*.ts*",
       "*.ts"
-    ],
-    "exclude": [
-      "node_modules"
-    ],
-    "buildOnSave": true,
-    "compileOnSave": true
-  }
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "buildOnSave": true,
+  "compileOnSave": true
 }
