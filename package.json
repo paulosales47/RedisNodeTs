@@ -5,9 +5,11 @@
   "main": "Program.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc -w",
+    "compile": "tsc",
+    "compile-watch": "tsc -w",
     "start": "node Program.js",
-    "start-dev": "node ./dist/Program.js"
+    "start-dev": "node ./dist/Program.js",
+    "clean": "rmdir dist /s /q"
   },
   "repository": {
     "type": "git",
