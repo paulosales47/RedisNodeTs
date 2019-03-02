@@ -1,0 +1,19 @@
+version: "3"
+services:
+  api:
+    image: paulohsampaio/apinoderedis
+    ports: 
+      - "3012:3012"
+    links:
+      - conexao_redis
+      - conexao_mongo
+  conexao_redis:
+    image: redis
+    ports:
+      - "6379:6379"
+  conexao_mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - --noauth
