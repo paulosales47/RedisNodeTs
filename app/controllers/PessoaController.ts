@@ -3,7 +3,9 @@ import * as redis from 'redis';
 
 import PessoaService from '../service/PessoaService';
 
-const clienteRedis = redis.createClient();
+const clienteRedis = redis.createClient({
+    host: 'conexao_redis'
+});
 
 class PessoaController{
 

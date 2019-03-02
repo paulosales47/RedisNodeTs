@@ -4,9 +4,7 @@ class Database{
     private DbUrl;
 
     constructor(){
-        this.DbUrl = process.env.PORT 
-        ? 'mongodb://conexao/pessoa'
-        : 'mongodb://localhost:27017/pessoa'
+        this.DbUrl = 'mongodb://conexao_mongo/pessoa'
     }
 
     createConnection(){
