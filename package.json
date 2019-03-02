@@ -1,0 +1,25 @@
+{
+  "name": "redisnodets",
+  "version": "1.0.0",
+  "description": "CRUD básico em node utilizando MongoDB e Redis",
+  "main": "Program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulosales47/RedisNodeTs.git"
+  },
+  "keywords": [
+    "node",
+    "redis.",
+    "js",
+    "mongoDB"
+  ],
+  "author": "Paulo Henrique Sales Sampaio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulosales47/RedisNodeTs/issues"
+  },
+  "homepage": "https://github.com/paulosales47/RedisNodeTs#readme"
+}
