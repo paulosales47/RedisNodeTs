@@ -4,7 +4,10 @@
   "description": "CRUD básico em node utilizando MongoDB e Redis",
   "main": "Program.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -w",
+    "start": "node Program.js",
+    "start-dev": "node ./dist/Program.js"
   },
   "repository": {
     "type": "git",
